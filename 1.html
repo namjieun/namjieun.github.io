@@ -1,0 +1,286 @@
+<!DOCTYPE html><!-- 21961037남지은  -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" concept="width=device-width,initial-scale=1.0" charset="utf-8"/>
+    <title>한강</title>
+
+    <style>
+
+    @keyframes showtext {
+      from { transform: translateY(10px);
+        opacity: 0;
+           }
+
+      to { transform: translateY(0px);
+           opacity: 1;
+          }
+             }
+
+
+
+      *{
+        padding: 0;
+        margin: 0;
+       }
+
+      .clear {
+              clear: both;
+             }
+
+       li {
+           list-style-type: none;
+           }
+
+       header {
+             width: 100%;
+             height: 100px;
+             margin: 0 auto;
+             position: fixed;
+             background-color: white;
+             top: 0;
+             animation: showtext 1.5s;
+               }
+
+
+
+       #menus {
+            float: right;
+              }
+
+       #header_box {
+             width: 1340px;
+             height: 90px;
+             margin: 0 auto;
+             }
+
+        #logo {
+            float: left;
+            margin-top: 30px;
+            margin-left: 45px;
+              }
+
+
+
+              #main_menu {
+                   text-align: center;
+                   padding-top: 45px;
+                   font-family: 'SunBatang';
+                   font-weight: lighter;
+                   font-size: 18px;
+
+                       }
+
+              #main_menu .dep2 {
+                    display: none;
+                    background-color: white;
+                          }
+
+              #main_menu .dep2 > li {
+                    padding: 10px;
+                    border-bottom: 1px solid #C1C1C1;
+                        }
+
+              #main_menu .dep2 > li > a {
+                    color: black;
+                    display: block;
+                    margin-top: 18px;
+                    font-size: 15px;
+                      }
+
+                       #main_menu > li {
+                         padding: 10px 0;
+                         display: inline-block;
+                         vertical-align: top;
+                         margin-left: 25px;
+                         color: black;
+                         text-align: center;
+                       }
+
+                       #main_menu > li > a {
+
+                         display: block;
+                         vertical-align: top;
+                         color: black;
+                       }
+
+                       #main_menu > li:hover > .dep2 {
+                         display: block;
+                       }
+
+
+
+                 #contents {
+                   width: 1340px;
+                   height: 803px;
+                   margin: 0 auto;
+                   margin-top: 100px;
+                   animation: showtext 1.5s;
+
+                 }
+
+                 #contents h1 {
+                   font-family: 'SunBatang';
+                   color: #434444;
+                               }
+
+
+                 #contents p {
+                   font-family: 'SunBatang';
+                   font-weight: lighter;
+                   line-height: 190%;
+                   color: #434444;
+                   font-size: 13px;
+                              }
+
+                #contents q {
+                  font-family: 'SunBatang';
+                  font-weight: lighter;
+                  line-height: 190%;
+                  color: #434444;
+                  font-size: 13px;
+                  }
+
+
+                #main_img {
+                   float: left;
+                   margin-top: 140px;
+                   margin-left: 120px;
+                          }
+
+
+
+                 #sub_box {
+                   float: right;
+                   width:450px;
+                   margin-top: 160px;
+                   margin-right: 100px;
+                          }
+
+                 footer {
+                   width: 100%;
+                   height: 55px;
+                   margin-top: 20px;
+                   background-color: white;
+                   border-top: 1px solid #C1C1C1;
+                   position: fixed;
+                   bottom: 0;
+                         }
+
+                 #footer_box {
+                   width: 1340px;
+                   height: 55px;
+                   margin: 0 auto;
+
+                              }
+
+                 #address {
+                   font-family: 'Courier New';
+                   text-align: center;
+                   margin: 0 auto;
+                   padding-top: 17px;
+                   color: black;
+                 }
+
+                 a:link {
+                         text-decoration: none;
+                         color:black;
+                          }
+
+                 a:visited {
+                           text-decoration: none;
+                           color:white;
+                          }
+
+
+                 a:hover {
+                          transition: 1s;
+                          text-decoration:line-through;
+                          color:black;
+                          }
+
+                 a:active {
+                           text-decoration: none;
+                           color: white;
+                           }
+
+                           @media only screen and (max-width:620px) {
+                             /* For mobile phones: */
+                           .menu, .main, .right {
+                             width: 100%;
+                           }
+                           }
+
+         </style>
+
+       </head>
+
+
+       <header>
+         <div id='header_box'>
+           <div id='logo'>
+           <a href='index.html'>  <img src='img/logo.png'></a>
+           </div>
+
+         <nav id= 'menus'>
+         <ul id= 'main_menu'>
+           <li><a href='1.html'> 한강 </a>
+            </li>
+           <li>|</li>
+           <li><a href='2.html'> 흰 </a>
+           </li>
+           <li>|</li>
+           <li><a href='me.html'> 흰것들 </a>
+             <ul class='dep2'>
+               <li> <a href='me.html'> 나 </a></li>
+               <li> <a href='she.html'> 그녀 </a></li>
+               <li> <a href='all.html'> 모든 </a></li>
+             </ul>
+           </li>
+           <li>|</li>
+           <li><a href='4.html'> 소실,점 </a>
+           </li>
+         </ul>
+         </nav>
+         </div>
+         </header>
+
+<div class='clear'></div>
+
+
+
+
+
+           <section id= 'contents'>
+             <div id= 'main_img'>
+               <img src='img/img.jpeg'>
+               </div>
+
+               <div id= 'sub_box'>
+                 <h1> 한강</h1> <br>
+                 <p> 1970년 겨울에 태어났다. </p><br>
+                 <p>1993년 [문학과사회] 겨울호에 시 [서울의 겨울] 외 4편을 발표하고 이듬해 서울신문 신춘문예에 단편소설 [붉은 닻]이 당선되면서 작품활동을 시작했다.<br>
+                   장편소설 [검은 사슴] [그대의 차가운 손] [채식주의자] [바람이 분다,가라] [희랍어 시간] [소년이 온다], 소설집 [여수의 사랑] [내 여자의 열매] [노랑무늬영원], 시집 [서랍에 저녁을 넣어 두었다] 등이 있다.<br>
+                   오늘의 젊은 예술가상, 이상문학상, 동리문학상, 만해문학상, 황순원문학상, 맨부커 인터내셔널상, 말라파르테 문학상 등을 수상했다. </p><br><br><br>
+                 <p><i>어쩌면 아직도 나는 이 책과 연결되어 있다. <br>
+                    흔들리거나, 금이 가거나, 부서지려는 순간에 당신을, <br>
+                    내가 당신에 주고 싶었던 흰 것들을 생각한다. <br><br>
+                     - ‘작가의 말’ 중에서 </i></p>
+                 </div>
+           </section>
+
+
+
+
+
+
+
+           <div class='clear'></div>
+           <footer>
+             <div id='footer_box'>
+               <ul id= 'address'>
+                   <li> COPYRIGHT (C) NAM ALL RIGHTS RESERVED </li>
+                 </ul>
+               </div>
+             </footer>
+       </body>
+     </html>

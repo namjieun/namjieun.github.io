@@ -1,0 +1,186 @@
+<!DOCTYPE html><!-- 21961037남지은  -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" concept="width=device-width,initial-scale=1.0"charset="utf-8"/>
+    <title>한강</title>
+
+    <style>
+
+      *{
+        padding: 0;
+        margin: 0;
+       }
+
+      .clear {
+              clear: both;
+             }
+
+             @keyframes showtext {
+               from { transform: translateY(20px);
+                 opacity: 0;
+                    }
+
+               to { transform: translateY(0px);
+                    opacity: 1;
+                   }
+                      }
+
+
+
+       li {
+           list-style-type: none;
+           }
+
+      body {
+            background-image: url('img/f.png') ;
+            background-position: top center;
+            background-repeat: repeat;
+            }
+
+      header {
+             width: 100%;
+             height: 90px;
+             margin: 0 auto;
+
+            }
+
+            #menus {
+              float: none;
+            }
+
+            #header_box {
+              width: 1140px;
+              height: 90px;
+              margin: 0 auto;
+
+            }
+
+            #main_menu {
+
+
+              text-align: center;
+              padding-top: 35px;
+              font-family: 'SunBatang';
+              font-weight: lighter;
+              font-size: 18px;
+
+            }
+
+            #main_menu li {
+
+              display: inline;
+              margin-left: 60px;
+              color: white;
+              animation: showtext 2.5s;
+            }
+
+
+
+
+
+            #contents {
+              width: 1140px;
+              height: 803px;
+              margin: 0 auto;
+            }
+
+            #contents_text {
+              float: left;
+              margin-left: 150px;
+              margin-top: 100px;
+              animation: showtext 2.0s;
+            }
+
+            footer {
+              width: 100%;
+              height: 55px;
+              margin-top: 20px;
+              background-color: white;
+              border-top: 1px solid #C1C1C1;
+            }
+
+            #footer_box {
+              width: 1140px;
+              height: 55px;
+              margin: 0 auto;
+            }
+
+            #address {
+              font-family: 'Courier New';
+              text-align: center;
+              margin: 0 auto;
+              padding-top: 17px;
+              color: black;
+            }
+
+            a:link {
+                    text-decoration: none;
+                    color:white;
+                     }
+
+            a:visited {
+                      text-decoration: none;
+                      color:white;
+                     }
+
+
+            a:hover {
+                     text-decoration: none;
+                     color:white;
+                     }
+
+            a:active {
+                      text-decoration: none;
+                      color: white;
+                      }
+
+                      @media only screen and (max-width:620px) {
+                        /* For mobile phones: */
+                      .menu, .main, .right {
+                        width: 100%;
+                      }
+                      }
+
+    </style>
+
+  </head>
+
+
+  <body>
+
+    <header>
+       <div id='header_box'>
+       <nav id= 'menus'>
+       <ul id= 'main_menu'>
+         <a href='1.html'><li> 한강 </li></a><li>|</li>
+         <a href='2.html'><li> 흰 </li></a><li>|</li>
+         <a href='me.html'><li> 흰것들 </li></a><li>|</li>
+         <a href='4.html'><li> 소실,점 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li></a>
+       </ul>
+       </nav>
+       </div>
+     </header>
+
+
+
+
+      <section id= 'main_img'>
+        <div id= 'contents_text'>
+          <img src= 'img/mainlogo.png'>
+        </div>
+      </section>
+
+      <section id= 'contents'>
+      </section>
+
+
+      <div class='clear'></div>
+      <footer>
+        <div id='footer_box'>
+          <ul id= 'address'>
+              <li> COPYRIGHT (C) NAM ALL RIGHTS RESERVED </li>
+            </ul>
+          </div>
+        </footer>
+  </body>
+</html>

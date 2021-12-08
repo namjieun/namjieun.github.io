@@ -1,0 +1,388 @@
+<!DOCTYPE html><!-- 21961037남지은  -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" concept="width=device-width,initial-scale=1.0"charset="utf-8"/>
+    <title>한강</title>
+
+    <style>
+
+    @keyframes showtext {
+      from { transform: translateY(10px);
+        opacity: 0;
+           }
+
+      to { transform: translateY(0px);
+           opacity: 1;
+          }
+             }
+
+      *{
+        padding: 0;
+        margin: 0;
+       }
+
+      .clear {
+              clear: both;
+             }
+
+       ul, li {
+           list-style-type: none;
+           }
+           a {
+             text-decoration: none;
+             color: inherit;
+           }
+
+
+
+       header {
+             width: 100%;
+             height: 100px;
+             margin: 0 auto;
+             position: fixed;
+             top: 0;
+             background-color: white;
+             animation: showtext 1.5s;
+               }
+
+       #menus {
+            float: right;
+              }
+
+       #header_box {
+             width: 1340px;
+             height: 90px;
+             margin: 0 auto;
+             }
+
+        #logo {
+            float: left;
+            margin-top: 30px;
+            margin-left: 45px;
+              }
+
+        #menus {
+            float: right;
+               }
+
+        #main_menu {
+             text-align: center;
+             padding-top: 45px;
+             font-family: 'SunBatang';
+             font-weight: lighter;
+             font-size: 18px;
+
+                 }
+
+        #main_menu .dep2 {
+              display: none;
+              background-color: white;
+                    }
+
+        #main_menu .dep2 > li {
+              padding: 10px;
+              border-bottom: 1px solid #C1C1C1;
+                  }
+
+        #main_menu .dep2 > li > a {
+              color: black;
+              display: block;
+              margin-top: 18px;
+              font-size: 15px;
+                }
+
+                 #main_menu > li {
+                   padding: 10px 0;
+                   display: inline-block;
+                   vertical-align: top;
+                   margin-left: 25px;
+                   color: black;
+                   text-align: center;
+                 }
+
+                 #main_menu > li > a {
+
+                   display: block;
+                   vertical-align: top;
+                   color: black;
+                 }
+
+                 #main_menu > li:hover > .dep2 {
+                   display: block;
+                 }
+
+
+
+
+
+
+
+                 #contents {
+                   width: 1340px;
+                   height: 2300px;
+                   margin: 0 auto;
+                   animation: showtext 1.5s;
+
+                 }
+
+                 #sub1_box {
+                   float: left;
+                   width:450px;
+                   margin-top: 90px;
+                   margin-left: 200px;
+
+                 }
+
+                 #sub2_box {
+                   float: right;
+                   width:450px;
+                   margin-top: 90px;
+                   margin-right: 200px;
+                 }
+
+                 #sub3_box {
+                   float: left;
+                   width:450px;
+                   margin-top: 190px;
+                   margin-left: 200px;
+                 }
+
+                 #sub4_box {
+                   float: right;
+                   width:450px;
+                   margin-top: 190px;
+                   margin-right: 200px;
+
+
+                 }
+
+
+                 #main_img {
+                   margin: 0 auto;
+                   text-align: center;
+                   margin-top: 100px;
+                            }
+
+
+                 #sub1_box h1 {
+                   font-family: 'SunBatang';
+                   color: #434444;
+                   font-size: 20px;
+                               }
+
+                 #sub4_box h1 {
+                    font-family: 'SunBatang';
+                    color: #434444;
+                    font-size: 20px;
+                    text-align: right;
+                       }
+
+                       #sub4_img {
+                         text-align: right;
+                       }
+
+                 #contents p {
+                   font-family: 'SunBatang';
+                   font-weight: lighter;
+                   line-height: 190%;
+                   color: #434444;
+                   font-size: 13px;
+                              }
+
+                #contents tt {
+                    font-family: 'SunBatang';
+                    line-height: 190%;
+                    color: #434444;
+                    font-size: 13px;
+                          }
+
+
+                          footer {
+                            width: 100%;
+                            height: 55px;
+                            margin-top: 20px;
+                            background-color: white;
+                            border-top: 1px solid #C1C1C1;
+
+                                  }
+
+                 #footer_box {
+                   width: 1340px;
+                   height: 55px;
+                   margin: 0 auto;
+
+                              }
+
+                 #address {
+                   font-family: 'Courier New';
+                   text-align: center;
+                   margin: 0 auto;
+                   padding-top: 17px;
+                   color: black;
+                 }
+
+                 a:link {
+                         text-decoration:none;
+                         color:black;
+                          }
+
+                 a:visited {
+                          text-decoration: none;
+                           color:black;
+                          }
+
+
+                a:hover {
+                        transition: 1s;
+                        text-decoration:line-through;
+                        color:black;
+                        }
+
+                 a:active {
+                           text-decoration: none;
+                           color: white;
+
+                           }
+
+                           @media only screen and (max-width:620px) {
+                             /* For mobile phones: */
+                           .menu, .main, .right {
+                             width: 100%;
+                           }
+                           }
+
+         </style>
+
+       </head>
+
+
+       <body>
+
+         <header>
+           <div id='header_box'>
+             <div id='logo'>
+             <a href='index.html'>  <img src='img/logo.png'></a>
+             </div>
+
+           <nav id= 'menus'>
+           <ul id= 'main_menu'>
+             <li><a href='1.html'> 한강 </a>
+              </li>
+             <li>|</li>
+             <li><a href='2.html'> 흰 </a>
+             </li>
+             <li>|</li>
+             <li><a href='me.html'> 흰것들 </a>
+               <ul class='dep2'>
+                 <li> <a href='me.html'> 나 </a></li>
+                 <li> <a href='she.html'> 그녀 </a></li>
+                 <li> <a href='all.html'> 모든 </a></li>
+               </ul>
+             </li>
+             <li>|</li>
+             <li><a href='4.html'> 소실,점 </a>
+             </li>
+           </ul>
+           </nav>
+           </div>
+           </header>
+
+
+
+
+
+
+
+           <section id= 'contents'>
+
+
+
+             <div id= 'main_img'>
+               <img src='img/bo.png'>
+               </div>
+
+                <div id= 'sub1_box'>
+                  <h1> 책 소개 </h1>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <img src='img/2-1.jpeg'>
+                </div>
+
+                <div id= 'sub2_box'>
+                  <tt> 결코 더럽혀지지 않는, 절대로 더럽혀질 수가 없는 어떤 흰 것에 관하여 <br><br><br></tt>
+
+                    <p> 한국인 최초 맨부커상 수상 작가 한강의 소설 『흰』. <br>
+                      2018년 맨부커 인터네셔널 부문 최종후보작으로 선정된 이 작품은, 2013년 겨울에 기획해 2014년에 완성된 초고를 바탕으로 글의 매무새를 닳도록 만지고 또 어루만져서 2016년 5월에 처음 펴냈던 책이다.<br>
+                      삶과 죽음이라는 경계를 무력하게 만드는 이 소설은 한 권의 시집으로 읽힘에 손색이 없는 65편의 이야기로 구성되어 있다. <br><br>
+
+                      강보, 배내옷, 각설탕, 입김, 달, 쌀, 파도, 백지, 백발, 수의…. 작가로부터 불려나온 흰 것의 목록은 총 65개의 이야기로 파생되어 ‘나’와 ‘그녀’와 ‘모든 흰’이라는 세 개의 장 아래 담겨 있다.<br>
+                      한 권의 소설이지만 각 소제목, 흰 것의 목록들 아래 각각의 이야기들이 그 자체로 밀도 있는 완성도를 자랑한다. <br><br>
+
+                      ‘나’에게는 죽은 어머니가 스물세 살에 낳았다 태어난 지 두 시간 만에 죽었다는 ‘언니’의 사연이 있다.<br>
+                       나는 지구의 반대편의 오래된 한 도시로 옮겨온 뒤에도 자꾸만 떠오르는 오래된 기억들에 사로잡힌다.<br>
+                       나에게서 비롯된 이야기는 ‘그녀’에게로 시선을 옮겨간다. 나는 그녀가 나대신 이곳으로 왔다고 생각하고, 그런 그녀를 통해 세상의 흰 것들을 다시금 만나기에 이른다.</p>
+                </div>
+                <div class='clear'></div>
+
+                <div id= 'sub3_box'>
+                  <tt> 고독과 고요, 그리고 용기.<br>
+                       이 책이 나에게 숨처럼 불어넣어준 것은 그것들이었다. <br><br><br></tt>
+                    <p>“흰 것에 대해 쓰겠다고 결심한 봄에 내가 처음 한 일은 목록을 만든 것이었다.”<br><br>
+
+                     그렇게 작가로부터 불려나온 흰 것의 목록은 총 65개의 이야기로 파생되어 ‘나’와 ‘그녀’와 ‘모든 흰’이라는 세 개의 장 아래 스미어 있습니다.
+                      한 권의 소설이지만 때론 65편의 시가 실린 한 권의 시집으로 읽힘에 손색이 없는 것이 각 소제목 아래 각각의 이야기들이 그 자체로 밀도 있는 완성도를 자랑하기 때문입니다.
+                      비교적 얇은 볼륨감을 가진 이 한 권의 소설은 쉽게 읽혀버리지 않습니다.
+                      천천히 아주 느릿느릿 읽게 하다가, 흐린 연필 한 자루를 들어 문장에 혹은 단어에 실금을 긋게 하다가, 다시금 앞서 읽은 페이지로 돌아가 그 앞선 데서부터 다시금 읽기 시작하게 만듭니다.
+                      내 마음의 멍울 같은 게 책장에 스미면서 점점 묵직해져가는 소설 『흰』의 무게감을 받치기 위해 불려나온 흰 것들.
+                      예컨대 강보, 배내옷, 달떡, 안개, 흰 도시, 젖, 초, 성에, 서리, 각설탕, 흰 돌, 흰 뼈, 백발, 구름, 백열전구, 백야, 얇은 종이의 하얀 뒷면, 흰나비, 쌀과 밥, 수의, 소복, 연기, 아랫니, 눈, 눈송이들, 만년설, 파도, 진눈깨비, 흰 개, 눈보라, 재, 소금, 달, 레이스 커튼, 입김, 흰 새들, 손수건, 은하수, 백목련, 당의정…… 등등 온통 무참히도 흰 것들의 이름을 나지막하게 발음해봅니다.
+                      이 소설은 이렇듯 눈으로 읽고 입으로 읽는 두 가지 과정 속에 불현듯 진정한 제 속내를 들켜주기도 한다지요.
+                      흰 것을 떠올리고 불러내고 불러주고 글로 쓰는 일련의 과정이 결국은 흰 것을 보고 흰 것을 읽는 우리를 치유시켜주는 일이 아닐까요.<br><br><br>
+
+                      『흰』은 삶과 죽음이라는 경계를 무력하게 만드는 소설입니다. <br>
+                      삶과 죽음이라는 벽을 모래로 허물고, 삶과 죽음이라는 단단함을 무르게 만들고, 삶과 죽음이라는 당연함을 낯설게 하고, 삶과 죽음이라는 평면을 입체로 분산시키고, 삶과 죽음이라는 유한을 우주라는 무한으로 확장시킵니다. <br>
+                      넘나든다는 일은 몸에 유연성을 기르는 일이지요. <br>
+                      유연한 사고가 빚어내는 끌어안음은 연대를 이루기에 충분하지요. <br>
+                      산 자와 죽은 자의 연대, 어차피 모든 산 자는 모두 죽은 자가 될 것이 아닌가요. <br>
+                      “아기의 배내옷이 수의가 되고 강보가 관이 되었”듯이 말입니다.<br>
+                    </p>
+
+                </div>
+
+                <div id= 'sub4_box'>
+                  <h1> 출판사 서평 </h1>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div id= 'sub4_img'>
+                    <img src='img/2-2.jpeg'>
+                    </div>
+
+                </div>
+
+
+
+           </section>
+
+
+
+
+
+
+
+
+           <div class='clear'></div>
+           <footer>
+             <div id='footer_box'>
+               <ul id= 'address'>
+                   <li> COPYRIGHT (C) NAM ALL RIGHTS RESERVED </li>
+                 </ul>
+               </div>
+             </footer>
+             </div>
+       </body>
+     </html>

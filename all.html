@@ -1,0 +1,345 @@
+<!DOCTYPE html><!-- 21961037남지은  -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" concept="width=device-width,initial-scale=1.0"charset="utf-8"/>
+    <title>한강</title>
+
+    <style>
+
+    @keyframes showtext {
+      from { transform: translateY(10px);
+        opacity: 0;
+           }
+
+      to { transform: translateY(0px);
+           opacity: 1;
+          }
+             }
+
+      *{
+        padding: 0;
+        margin: 0;
+       }
+
+      .clear {
+              clear: both;
+             }
+
+       ul, li {
+           list-style-type: none;
+           }
+           a {
+             text-decoration: none;
+             color: inherit;
+           }
+
+
+
+       header {
+             width: 100%;
+             height: 100px;
+             margin: 0 auto;
+             position: fixed;
+             top: 0;
+             background-color: white;
+             animation: showtext 1.5s;
+               }
+
+       #menus {
+            float: right;
+              }
+
+       #header_box {
+             width: 1340px;
+             height: 90px;
+             margin: 0 auto;
+             }
+
+        #logo {
+            float: left;
+            margin-top: 30px;
+            margin-left: 45px;
+              }
+
+        #menus {
+            float: right;
+               }
+
+        #main_menu {
+             text-align: center;
+             padding-top: 45px;
+             font-family: 'SunBatang';
+             font-weight: lighter;
+             font-size: 18px;
+
+                 }
+
+        #main_menu .dep2 {
+              display: none;
+              background-color: white;
+                    }
+
+        #main_menu .dep2 > li {
+              padding: 10px;
+              border-bottom: 1px solid #C1C1C1;
+                  }
+
+        #main_menu .dep2 > li > a {
+              color: black;
+              display: block;
+              margin-top: 18px;
+              font-size: 15px;
+                }
+
+                 #main_menu > li {
+                   padding: 10px 0;
+                   display: inline-block;
+                   vertical-align: top;
+                   margin-left: 25px;
+                   color: black;
+                   text-align: center;
+                 }
+
+                 #main_menu > li > a {
+
+                   display: block;
+                   vertical-align: top;
+                   color: black;
+                 }
+
+                 #main_menu > li:hover > .dep2 {
+                   display: block;
+                 }
+
+
+
+
+                 #contents {
+                   width: 1340px;
+                   height: 2200px;
+                   margin: 0 auto;
+                   margin-top: 300px;
+                   animation: showtext 1.5s;
+                 }
+
+                 #sub1_box {
+                   text-align: center;
+                   width:1000px;
+                   height: auto;
+                   margin-top: 300px;
+                   margin: 0 auto;
+
+                 }
+
+                 #sub2_box {
+
+                   width:1000px;
+                   height: auto;
+                   margin-top: 50px;
+                   margin-left: 300px;
+
+                 }
+
+                 #sub3_box {
+                   width:1000px;
+                   margin-top: 650px;
+                   text-align: center;
+                   margin: 0 auto;
+                 }
+
+
+
+
+
+                 #main_img {
+                   margin: 0 auto;
+                   text-align: center;
+                   margin-top: 100px;
+                            }
+
+                 #sub1_box h1 {
+                   font-family: 'SunBatang';
+                   color: #434444;
+                   font-size: 22px;
+                               }
+
+
+
+                 #contents p {
+                   font-family: 'SunBatang';
+                   font-weight: lighter;
+                   line-height: 230%;
+                   color: #434444;
+                   font-size: 14px;
+                              }
+
+
+
+
+                          footer {
+                            width: 100%;
+                            height: 55px;
+                            margin-top: 20px;
+                            background-color: white;
+                            border-top: 1px solid #C1C1C1;
+
+                                  }
+
+                 #footer_box {
+                   width: 1340px;
+                   height: 55px;
+                   margin: 0 auto;
+
+                              }
+
+                 #address {
+                   font-family: 'Courier New';
+                   text-align: center;
+                   margin: 0 auto;
+                   padding-top: 17px;
+                   color: black;
+                 }
+
+                 a:link {
+                         text-decoration:none;
+                         color:black;
+                          }
+
+                 a:visited {
+                          text-decoration: none;
+                           color:black;
+                          }
+
+
+                a:hover {
+                        transition: 1s;
+                        text-decoration:line-through;
+                        color:black;
+                        }
+
+                 a:active {
+                           text-decoration: none;
+                           color: white;
+
+                           }
+
+                           @media only screen and (max-width:620px) {
+                             /* For mobile phones: */
+                           .menu, .main, .right {
+                             width: 100%;
+                           }
+                           }
+
+         </style>
+
+       </head>
+
+
+       <body>
+
+         <header>
+           <div id='header_box'>
+             <div id='logo'>
+             <a href='index.html'>  <img src='img/logo.png'></a>
+             </div>
+
+           <nav id= 'menus'>
+           <ul id= 'main_menu'>
+             <li><a href='1.html'> 한강 </a>
+              </li>
+             <li>|</li>
+             <li><a href='2.html'> 흰 </a>
+             </li>
+             <li>|</li>
+             <li><a href='me.html'> 흰것들 </a>
+               <ul class='dep2'>
+                 <li> <a href='me.html'> 나 </a></li>
+                 <li> <a href='she.html'> 그녀 </a></li>
+                 <li> <a href='all.html'> 모든 </a></li>
+               </ul>
+             </li>
+             <li>|</li>
+             <li><a href='4.html'> 소실,점 </a>
+             </li>
+           </ul>
+           </nav>
+           </div>
+           </header>
+
+
+
+
+
+
+           <section id= 'contents'>
+
+                <div id= 'sub1_box'>
+                  <h1> 모든 / 흰 </h1><br><br><br>
+                </div>
+
+
+
+                  <div id= 'sub2_box'>
+                    <p> 당신의 눈으로 흰 배춧속 가장 깊고 환한 곳, 가장 귀하게 숨겨진 어린 잎사귀를 볼 것이다. <br>
+                    낮에 뜬 반달의 서늘함을 볼 것이다.<br>
+                    언젠가 빙하를 볼 것이다.<br>
+                    각진 굴곡마다 푸르스름한 그늘이 진 거대한 얼음을, 생명이었던 적이 없어 더 신성한 생명처럼 느껴지는 그것을 올려다 볼 것이다.<br>
+                    자작나무숲의 침묵 속에서 당신은 볼 것이다. <br>
+                    겨울 해가 드는 창의 정적 속에서 볼 것이다. <br>
+                    비스듬히 천장에 비춰진 광선을 따라 흔들리는,빛나는 먼지 분말들 속에서 볼 것이다.<br><br><br>
+                    그 흰,<br><br>
+                    모든 흰 것들 속에서 당신이<br><br>
+                    마<br>
+                    &nbsp;지<br>
+                    &nbsp;&nbsp;막<br>
+                    &nbsp;&nbsp;&nbsp;으<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;로<br><br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;내<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;쉰<br><br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;숨<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;을<br><br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;들<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;마<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;실<br><br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;것<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp. </p>
+                    </div>
+                     <div class='clear'></div>
+
+                     <br><br><br><br><br><br><br>
+
+                      <div id= 'sub3_box'>
+                       <img src= 'img/all.jpg'>
+
+                     </div>
+
+
+
+
+
+
+
+
+              </section>
+
+
+
+
+           <div class='clear'></div>
+           <footer>
+             <div id='footer_box'>
+               <ul id= 'address'>
+                   <li> COPYRIGHT (C) NAM ALL RIGHTS RESERVED </li>
+                 </ul>
+               </div>
+             </footer>
+             </div>
+       </body>
+     </html>

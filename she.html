@@ -1,0 +1,392 @@
+<!DOCTYPE html><!-- 21961037남지은  -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" concept="width=device-width,initial-scale=1.0"charset="utf-8"/>
+    <title>한강</title>
+
+    <style>
+
+    @keyframes showtext {
+      from { transform: translateY(10px);
+        opacity: 0;
+           }
+
+      to { transform: translateY(0px);
+           opacity: 1;
+          }
+             }
+
+      *{
+        padding: 0;
+        margin: 0;
+       }
+
+      .clear {
+              clear: both;
+             }
+
+       ul, li {
+           list-style-type: none;
+           }
+           a {
+             text-decoration: none;
+             color: inherit;
+           }
+
+
+
+       header {
+             width: 100%;
+             height: 100px;
+             margin: 0 auto;
+             position: fixed;
+             top: 0;
+             background-color: white;
+             animation: showtext 1.5s;
+               }
+
+       #menus {
+            float: right;
+              }
+
+       #header_box {
+             width: 1340px;
+             height: 90px;
+             margin: 0 auto;
+             }
+
+        #logo {
+            float: left;
+            margin-top: 30px;
+            margin-left: 45px;
+              }
+
+        #menus {
+            float: right;
+               }
+
+        #main_menu {
+             text-align: center;
+             padding-top: 45px;
+             font-family: 'SunBatang';
+             font-weight: lighter;
+             font-size: 18px;
+
+                 }
+
+        #main_menu .dep2 {
+              display: none;
+              background-color: white;
+                    }
+
+        #main_menu .dep2 > li {
+              padding: 10px;
+              border-bottom: 1px solid #C1C1C1;
+                  }
+
+        #main_menu .dep2 > li > a {
+              color: black;
+              display: block;
+              margin-top: 18px;
+              font-size: 15px;
+                }
+
+                 #main_menu > li {
+                   padding: 10px 0;
+                   display: inline-block;
+                   vertical-align: top;
+                   margin-left: 25px;
+                   color: black;
+                   text-align: center;
+                 }
+
+                 #main_menu > li > a {
+
+                   display: block;
+                   vertical-align: top;
+                   color: black;
+                 }
+
+                 #main_menu > li:hover > .dep2 {
+                   display: block;
+                 }
+
+
+
+
+                 #contents {
+                   width: 1340px;
+                   height: 2300px;
+                   margin: 0 auto;
+                   margin-top: 300px;
+                   animation: showtext 1.5s;
+                 }
+
+                 #sub1_box {
+                   text-align: center;
+                   width:1000px;
+                   height: 650px;
+                   margin-top: 300px;
+                   margin: 0 auto;
+
+                 }
+
+                 #sub2_box {
+                   text-align: center;
+                   margin: auto;
+                   width:1000px;
+                   height: 350px;
+                   margin-top: 50px;
+
+                 }
+
+                 #sub3_box {
+
+                   width:900px;
+                   margin-top: 350px;
+                   text-align: center;
+                   margin: auto;
+                 }
+
+                 #sub4_box {
+                   float: left;
+                   width:450px;
+                   margin-top: 150px;
+                   margin-left: 200px;
+
+                 }
+
+                 #sub4-1_box {
+                   float: right;
+                   width:450px;
+                   margin-top: 130px;
+                   margin-right: 130px;
+
+                 }
+
+                 #sub5_box {
+                   float: right;
+                   width:450px;
+                   margin-top: 20px;
+                   margin-right: 200px;
+
+                 }
+
+                 #sub5-1_box {
+                   float: left;
+                   width:450px;
+                   margin-top: 20px;
+                   margin-left: 200px;
+
+                 }
+
+                 #sub3_box gg {
+                   font-family: 'SunBatang';
+                   text-align: center;
+                   font-weight: lighter;
+                   line-height: 230%;
+                   color: #666666;
+                   font-size: 18px;
+                 }
+
+
+
+
+                 #main_img {
+                   margin: 0 auto;
+                   text-align: center;
+                   margin-top: 100px;
+                            }
+
+                 #sub1_box h1 {
+                   font-family: 'SunBatang';
+                   color: #434444;
+                   font-size: 22px;
+                               }
+
+
+
+                 #contents p {
+                   font-family: 'SunBatang';
+                   font-weight: lighter;
+                   line-height: 230%;
+                   color: #434444;
+                   font-size: 14px;
+                              }
+
+
+
+
+                          footer {
+                            width: 100%;
+                            height: 55px;
+                            margin-top: 20px;
+                            background-color: white;
+                            border-top: 1px solid #C1C1C1;
+
+                                  }
+
+                 #footer_box {
+                   width: 1340px;
+                   height: 55px;
+                   margin: 0 auto;
+
+                              }
+
+                 #address {
+                   font-family: 'Courier New';
+                   text-align: center;
+                   margin: 0 auto;
+                   padding-top: 17px;
+                   color: black;
+                 }
+
+                 a:link {
+                         text-decoration:none;
+                         color:black;
+                          }
+
+                 a:visited {
+                          text-decoration: none;
+                           color:black;
+                          }
+
+
+                a:hover {
+                        transition: 1s;
+                        text-decoration:line-through;
+                        color:black;
+                        }
+
+                 a:active {
+                           text-decoration: none;
+                           color: white;
+
+                           }
+
+                           @media only screen and (max-width:620px) {
+                             /* For mobile phones: */
+                           .menu, .main, .right {
+                             width: 100%;
+                           }
+                           }
+
+         </style>
+
+       </head>
+
+
+       <body>
+
+         <header>
+           <div id='header_box'>
+             <div id='logo'>
+             <a href='index.html'>  <img src='img/logo.png'></a>
+             </div>
+
+           <nav id= 'menus'>
+           <ul id= 'main_menu'>
+             <li><a href='1.html'> 한강 </a>
+              </li>
+             <li>|</li>
+             <li><a href='2.html'> 흰 </a>
+             </li>
+             <li>|</li>
+             <li><a href='me.html'> 흰것들 </a>
+               <ul class='dep2'>
+                 <li> <a href='me.html'> 나 </a></li>
+                 <li> <a href='she.html'> 그녀 </a></li>
+                 <li> <a href='all.html'> 모든 </a></li>
+               </ul>
+             </li>
+             <li>|</li>
+             <li><a href='4.html'> 소실,점 </a>
+             </li>
+           </ul>
+           </nav>
+           </div>
+           </header>
+
+
+
+
+
+
+           <section id= 'contents'>
+
+                <div id= 'sub1_box'>
+                  <h1> 그녀 / 넋 </h1><br><br><br>
+                  <img src='img/she.jpeg'>
+                </div>
+
+
+
+                  <div id= 'sub2_box'>
+                    <p> 넋이 존재한다면, 그 보이지 않는 움직임은 바로 그 나비를 닮았을 거라고 그녀는 생각해왔다.
+                      그렇다면 이 도시의 혼들은 자신들이 총살된 벽 앞에 이따금 날아들어, 그렇게 소리없는 움직임으로 파닥이며 거기 머무르곤 할까?
+                      그러나 이 도시의 사람들이 그 벽 앞에 초를 밝히고 꽃을 바치는 것이 넋들을 위한 일만은 아니라는 것을 그녀는 안다.
+                      살육당했던 것은 수치가 아니라고 믿는 것이다.
+                      가능한 한 오래 애도를 연장하려 하는 것이다.
+                      그녀는 자신이 두고 온 고국에서 일어났던 일들을 생각했고, 죽은 자들이 온전히 받지 못한 애도에 대해 생각했다.
+                      그 넋들이 이곳에서처럼 거리 한복판에서 가려질 가능성에 대해 생각했고, 자신의 고국이 단 한번도 그 일을 제대로 해내지 못했다는 사실을 깨달았다.
+                      그리고 그보다 사소하게, 그녀는 자신의 재건에 빠진 과정이 무엇이었는지도 알게 되었다.
+                      물론 그녀의 몸은 아직 죽지 않았다. 그녀의 넋은 아직 육체에 깃들어있다.
+                      폭격에 완전히 부서지지 않아 새 건물 앞에 옮겨 세운 벽돌 멱의 일부- 깨끗이 피가 씻겨나간 잔해- 를 닮은, 이제 더이상 젊지 않은 육체 속에.</p>
+                    </div>
+                     <div class='clear'></div>
+
+
+
+
+
+                    <div id= 'sub4_box'>
+                    <p>
+                      부서져본 적 없는 사람의 걸음걸이를 흉내내어 여기까지 걸어왔다. 꿰매지 않은 자리마다 깨끗한 장막을 덧대 가렸다.
+                      결별과 애도는 생략했다. 부서지지 않았다고 믿으면 더이상 부서지지 않을 거라고 믿었다.</p>
+
+                    </div>
+
+                    <div id='sub4-1_box'>
+                        <img src='img/she-2.jpg'>
+
+                    </div>
+ <div class='clear'></div>
+
+                    <div id='sub5-1_box'>
+                      <br><br><br><br>  <img src='img/she-3.jpeg'>
+                    </div>
+
+
+
+                    <div id='sub5_box'><br><br><br><br><br> <p> 그러니 몇 가지 일이 그녀에게 남아 있다;<br>
+                      거짓말을 그만둘 것.<br>
+                      (눈을 뜨고) 장막을 걷을 것.<br>
+                      기억할 모든 죽음과 넋들에게 -자신의 것을 포함해- 초를 밝힐 것. </p>
+                  </div>
+
+                    <div class='clear'></div>
+                    <br><br><br><br><br>
+                    <br><br><br><br><br>
+                    <br><br><br><br><br>
+                  <div id= 'sub3_box'>
+                    <img src='img/she-1.jpeg'>
+                  </div>
+                  <div class='clear'></div>
+
+
+              </section>
+
+
+
+
+           <div class='clear'></div>
+           <footer>
+             <div id='footer_box'>
+               <ul id= 'address'>
+                   <li> COPYRIGHT (C) NAM ALL RIGHTS RESERVED </li>
+                 </ul>
+               </div>
+             </footer>
+             </div>
+       </body>
+     </html>
